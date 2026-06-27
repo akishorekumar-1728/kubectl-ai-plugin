@@ -1,6 +1,7 @@
 import typer
 from rich.console import Console
 from rich.table import Table
+from kubectl_ai.ai import ask_ai
 from kubectl_ai.kubernetes import (
     get_pods,
     get_pod,
@@ -14,6 +15,16 @@ app = typer.Typer(
 )
 
 console = Console()
+
+@app.command()
+def ask(question: str):
+    """Ask AI about Kubernetes."""
+
+    console.print("[bold green]Thinking...[/bold green]")
+
+    answer = ask_ai(question)
+
+    console.print(answer)
 
 
 @app.command()
