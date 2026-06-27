@@ -150,7 +150,7 @@ This project demonstrates:
 DevOps | Cloud | AI Enthusiast |
 AI + DevOps Portfolio Project
 
-```
+
 
 ---
 ```
