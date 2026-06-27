@@ -147,7 +147,7 @@ This project demonstrates:
 ## 👨‍💻 Author
 
 **Kishore Kumar**  
-DevOps | Cloud | AI Enthusiast 
+DevOps | Cloud | AI Enthusiast |
 AI + DevOps Portfolio Project
 
 ```
