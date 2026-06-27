@@ -151,6 +151,3 @@ DevOps | Cloud | AI Enthusiast |
 AI + DevOps Portfolio Project
 
 
-
----
-```
